@@ -330,5 +330,150 @@ export default StyleSheet.create({
     fontSize: 12,
     color: 'rgba(255, 255, 255, 0.5)',
   },
+
+
+  // 在 styles.ts 文件中添加
+aiSection: {
+  marginBottom: 20,
+  backgroundColor: 'white',
+  borderRadius: 12,
+  padding: 16,
+  shadowColor: '#000',
+  shadowOffset: { width: 0, height: 2 },
+  shadowOpacity: 0.1,
+  shadowRadius: 4,
+  elevation: 3,
+},
+aiHeader: {
+  flexDirection: 'row',
+  justifyContent: 'space-between',
+  alignItems: 'center',
+  marginBottom: 12,
+},
+aiTitle: {
+  fontSize: 18,
+  fontWeight: 'bold',
+  color: '#333',
+},
+aiToggleButton: {
+  flexDirection: 'row',
+  alignItems: 'center',
+  padding: 8,
+},
+aiToggleText: {
+  fontSize: 14,
+  color: '#969FFF',
+  marginLeft: 4,
+},
+aiChatContainer: {
+  borderWidth: 1,
+  borderColor: '#e1e5e9',
+  borderRadius: 8,
+  overflow: 'hidden',
+},
+aiMessagesList: {
+  height: 200,
+  padding: 12,
+  backgroundColor: '#f8f9fa',
+},
+aiWelcome: {
+  padding: 20,
+  alignItems: 'center',
+  justifyContent: 'center',
+},
+aiWelcomeText: {
+  fontSize: 14,
+  color: '#6c757d',
+  textAlign: 'center',
+  lineHeight: 20,
+},
+aiMessageContainer: {
+  flexDirection: 'row',
+  marginBottom: 12,
+  alignItems: 'flex-start',
+},
+aiUserMessage: {
+  justifyContent: 'flex-end',
+},
+aiAssistantMessage: {
+  justifyContent: 'flex-start',
+},
+aiAvatar: {
+  width: 32,
+  height: 32,
+  borderRadius: 16,
+  justifyContent: 'center',
+  alignItems: 'center',
+  marginHorizontal: 8,
+},
+aiUserAvatar: {
+  backgroundColor: '#007bff',
+},
+aiAssistantAvatar: {
+  backgroundColor: '#28a745',
+},
+aiAvatarText: {
+  fontSize: 14,
+},
+aiMessageBubble: {
+  maxWidth: '70%',
+  padding: 10,
+  borderRadius: 12,
+},
+aiUserBubble: {
+  backgroundColor: '#007bff',
+  borderBottomRightRadius: 4,
+},
+aiAssistantBubble: {
+  backgroundColor: 'white',
+  borderWidth: 1,
+  borderColor: '#e1e5e9',
+  borderBottomLeftRadius: 4,
+},
+aiMessageText: {
+  fontSize: 14,
+  lineHeight: 18,
+},
+aiUserText: {
+  color: 'white',
+},
+aiAssistantText: {
+  color: '#333',
+},
+aiTypingText: {
+  color: '#666',
+  fontSize: 12,
+  fontStyle: 'italic',
+},
+aiInputContainer: {
+  flexDirection: 'row',
+  padding: 12,
+  backgroundColor: 'white',
+  borderTopWidth: 1,
+  borderTopColor: '#e1e5e9',
+},
+aiTextInput: {
+  flex: 1,
+  borderWidth: 1,
+  borderColor: '#e1e5e9',
+  borderRadius: 20,
+  paddingHorizontal: 16,
+  paddingVertical: 8,
+  fontSize: 14,
+  maxHeight: 80,
+},
+aiSendButton: {
+  marginLeft: 8,
+  backgroundColor: '#007bff',
+  borderRadius: 20,
+  width: 36,
+  height: 36,
+  justifyContent: 'center',
+  alignItems: 'center',
+},
+aiSendButtonDisabled: {
+  backgroundColor: '#6c757d',
+},
 });
+
 
